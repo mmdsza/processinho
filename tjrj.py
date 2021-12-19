@@ -19,7 +19,7 @@ class tjrj:
 		advogados = page_soup.find_all("table", {"class":"info"})
 		return advogados
 
-processo = '00714592120150038'
+processo = 
 a = tjrj()
 getProcesso = a.find(processo)
 getcontent = getProcesso.content()
